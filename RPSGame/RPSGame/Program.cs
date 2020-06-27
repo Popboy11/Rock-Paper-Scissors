@@ -13,7 +13,7 @@ namespace RPSGame
             int winCount = 0;
             int loseCount = 0;
             int tieCount = 0;
-            int gamesPlayed = 0; //Doesn't include not typing in a correct value
+            int gamesPlayed = 0;
             int score;
             int rocksPlayed = 0;
             int paperPlayed = 0;
@@ -21,7 +21,7 @@ namespace RPSGame
             int timesConfused = 0;
             int manualPlaying = 0;
             int loopLength = 3;
-            int tempGamesPlayed = 0; //Basically a counter for the amount of games played to keep track of the loop
+            int tempGamesPlayed = 0; //Basically just a counter for the amount of games played to keep track for the loop
             string loopLengthText;
             string userResponse = "r";
             string[] possibleAutoAnswers = {"r", "p", "s",};
@@ -36,10 +36,10 @@ namespace RPSGame
                     do
                     {
                         userResponse = possibleAutoAnswers[rnd.Next(0, 3)];
-                        //Thread.Sleep(15); Looks cooler with a bit of delay but decided against it
+                        //Thread.Sleep(15); Looks cooler with a bit of delay but speed is key
                     } while (loopLength < tempGamesPlayed);
                 }
-                cpuResponse = rnd.Next(1, 4); //not sure why this works but it does
+                cpuResponse = rnd.Next(1, 4);
                 gamesPlayed = winCount + loseCount + tieCount;
                 score = winCount - loseCount;
                 //help i'm yandere dev else if else if else if else if else if else if else if else if else if
@@ -49,19 +49,16 @@ namespace RPSGame
                     {
                         case 1:
                             Console.WriteLine("The computer chose ROCK! TIE!");
-                            //NewMessage();
                             rocksPlayed++;
                             tieCount++;
                             break;
                         case 2:
                             Console.WriteLine("The computer chose PAPER! YOU LOSE!");
-                            //NewMessage();
                             rocksPlayed++;
                             loseCount++;
                             break;
                         case 3:
                             Console.WriteLine("The computer chose SCISSORS! YOU WIN!");
-                            //NewMessage();
                             rocksPlayed++;
                             winCount++;
                             break;
@@ -73,19 +70,16 @@ namespace RPSGame
                     {
                         case 1:
                             Console.WriteLine("The computer chose ROCK! YOU WIN!");
-                            //NewMessage();
                             paperPlayed++;
                             winCount++;
                             break;
                         case 2:
                             Console.WriteLine("The computer chose PAPER! TIE!");
-                            //NewMessage();
                             paperPlayed++;
                             tieCount++;
                             break;
                         case 3:
                             Console.WriteLine("The computer chose SCISSORS! YOU LOSE!");
-                            //NewMessage();
                             paperPlayed++;
                             loseCount++;
                             break;
@@ -97,19 +91,16 @@ namespace RPSGame
                     {
                         case 1:
                             Console.WriteLine("The computer chose ROCK! YOU LOSE!");
-                            //NewMessage();
                             scissorsPlayed++;
                             loseCount++;
                             break;
                         case 2:
                             Console.WriteLine("The computer chose PAPER! YOU WIN!");
-                            //NewMessage();
                             scissorsPlayed++;
                             winCount++;
                             break;
                         case 3:
                             Console.WriteLine("The computer chose SCISSORS! TIE!");
-                            //NewMessage();
                             scissorsPlayed++;
                             tieCount++;
                             break;
@@ -236,7 +227,6 @@ namespace RPSGame
                         Console.WriteLine($"You have played {gamesPlayed} games in total");
                     }
                     Console.WriteLine($"---------------------------");
-                    //Console.Write("Rock, Paper, or Scissors: ");
                 }
                 else if (userResponse == "play for me")
                 { try
