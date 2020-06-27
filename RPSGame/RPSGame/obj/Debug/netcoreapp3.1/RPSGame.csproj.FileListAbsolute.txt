@@ -10,4 +10,3 @@ C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Debug\netcoreapp3.1\RPSGame.cspr
 C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Debug\netcoreapp3.1\RPSGame.dll
 C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Debug\netcoreapp3.1\RPSGame.pdb
 C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Debug\netcoreapp3.1\RPSGame.genruntimeconfig.cache
-C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Debug\netcoreapp3.1\RPSGame.csprojAssemblyReference.cache

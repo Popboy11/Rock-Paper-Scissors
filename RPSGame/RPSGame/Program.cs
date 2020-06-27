@@ -9,6 +9,7 @@ namespace RPSGame
         static void Main(string[] args)
         {
             Random rnd = new Random();
+            Console.Title = "Rock, Paper, Scissors!";
             int cpuResponse = rnd.Next(1, 4);
             int winCount = 0;
             int loseCount = 0;
