@@ -1,0 +1,12 @@
+C:\Users\nikom\source\repos\RPSGame\RPSGame\bin\Release\netcoreapp3.1\RPSGame.exe
+C:\Users\nikom\source\repos\RPSGame\RPSGame\bin\Release\netcoreapp3.1\RPSGame.deps.json
+C:\Users\nikom\source\repos\RPSGame\RPSGame\bin\Release\netcoreapp3.1\RPSGame.runtimeconfig.json
+C:\Users\nikom\source\repos\RPSGame\RPSGame\bin\Release\netcoreapp3.1\RPSGame.runtimeconfig.dev.json
+C:\Users\nikom\source\repos\RPSGame\RPSGame\bin\Release\netcoreapp3.1\RPSGame.dll
+C:\Users\nikom\source\repos\RPSGame\RPSGame\bin\Release\netcoreapp3.1\RPSGame.pdb
+C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Release\netcoreapp3.1\RPSGame.AssemblyInfoInputs.cache
+C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Release\netcoreapp3.1\RPSGame.AssemblyInfo.cs
+C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Release\netcoreapp3.1\RPSGame.csproj.CoreCompileInputs.cache
+C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Release\netcoreapp3.1\RPSGame.dll
+C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Release\netcoreapp3.1\RPSGame.pdb
+C:\Users\nikom\source\repos\RPSGame\RPSGame\obj\Release\netcoreapp3.1\RPSGame.genruntimeconfig.cache

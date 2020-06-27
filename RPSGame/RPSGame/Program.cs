@@ -35,8 +35,8 @@ namespace RPSGame
                 {
                     do
                     {
-                        userResponse = possibleAutoAnswers[rnd.Next(0, 2)];
-                        Thread.Sleep(25);
+                        userResponse = possibleAutoAnswers[rnd.Next(0, 3)];
+                        //Thread.Sleep(15); Looks cooler with a bit of delay but decided against it
                     } while (loopLength < tempGamesPlayed);
                 }
                 cpuResponse = rnd.Next(1, 4); //not sure why this works but it does
